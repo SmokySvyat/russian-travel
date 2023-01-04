@@ -1,0 +1,9 @@
+.lead__image {
+    margin: 0 auto 0 auto;
+    max-width: 984px;
+    max-height: 615px;
+}
+
+.lead__image:last-of-type {
+    margin: -525px auto 261px auto;
+}
