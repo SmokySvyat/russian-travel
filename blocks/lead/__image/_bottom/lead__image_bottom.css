@@ -1,0 +1,6 @@
+.lead__image_bottom {
+	width: 100%;
+	grid-column: 1/span 12;
+	grid-row: 1/span 12;
+	z-index: -1;
+}
