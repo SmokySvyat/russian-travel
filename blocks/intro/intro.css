@@ -1,15 +1,12 @@
 .intro {
-    margin: 92px 300px 92px 0px;
-    display: flex;
-    flex-direction: column;
-    /* align-self: center; */
-    /* grid-template-rows: repeat(3, fit-content(15px, 210px));
-    grid-template-columns: fit-content(100, 700px); */
+	margin: 92px 148px;
+	align-self: flex-start;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        margin: 92px 0 92px 48px;
+        margin: 92px 48px;
     }
     
 }
+
