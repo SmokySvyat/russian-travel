@@ -1,6 +1,15 @@
 .intro {
-    margin: 92px 0 92px 0;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    margin: 92px 300px 92px 0px;
+    display: flex;
+    flex-direction: column;
+    /* align-self: center; */
+    /* grid-template-rows: repeat(3, fit-content(15px, 210px));
+    grid-template-columns: fit-content(100, 700px); */
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 92px 0 92px 48px;
+    }
+    
 }

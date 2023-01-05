@@ -1,8 +1,15 @@
 .place {
     margin: 80px 0 0 0;
     display: grid;
-    grid-template-columns: repeat(2, minmax(456px, 460px));
+    grid-template-columns: repeat(2, minmax(430px, 460px));
     grid-template-rows: repeat(3, fit-content(42px, 470px));
-    row-gap: 40px;
-    column-gap: 48px;
+    row-gap: 48px;
+    column-gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: repeat(2, 440px);
+        column-gap: 32px;
+    }
 }
