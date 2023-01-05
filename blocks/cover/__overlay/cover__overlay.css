@@ -1,0 +1,8 @@
+.cover__overlay {
+    background-color: rgba(44, 42, 47, 0.3);
+    height: 740px;
+} 
+
+ .cover__overlay:hover {
+    background-color: rgba(44, 42, 47, 0.8);
+}

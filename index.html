@@ -10,10 +10,13 @@
 <body class="root">
     <header class="header">
         <img class="header__logo" src="images/__logo.svg" alt="Контур страны и надпись Россия">
-        <ul class="header__lang-links">
-          <a class="header__lang-link" href="index.html">Ru</a>
-          <a class="header__lang-link" href="#">En</a>
-        </ul>
+        <div class="header__lang-link">
+          <input type="radio" id="lang-choise-ru" name="lang" value="ru" checked>
+          <label for="lang-choise-ru">Ru</label>
+        
+          <input type="radio" id="lang-choise-en" name="lang" value="en">
+          <label for="lang-choise-en">En</label>
+        </div>
     </header>
 
     <main class="main">
@@ -21,7 +24,7 @@
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <img class="lead__image" src="images/kalegin-michail-179870-unsplash.svg" alt="Приятный поезд">
-            <img class="lead__image" src="images/Group 4.svg" alt="маршрут">
+            <img class="lead__image" src="images/Group4.svg" alt="маршрут">
             
             <p class="lead__caption">ваша полка — верхняя</p>
         </section>
@@ -152,18 +155,22 @@
 
         </section>
 
-        <section class="cover" style="background-image: url(images/__background.png);">
+        <section class="cover cover__background">
+            <div class="cover__overlay">
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+    <footer class="footer">
+        <ul class="footer__links">
+        <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+        <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+        <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+        <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+        <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+        </ul>
 
         <p class="footer__copyright">© 2023. Нестеров Святослав</p>
     </footer>

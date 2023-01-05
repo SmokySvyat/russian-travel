@@ -1,0 +1,5 @@
+.cover {
+    margin: 0 auto 92px auto;
+    display: flex;
+    flex-direction: column;
+}

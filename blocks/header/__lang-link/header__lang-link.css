@@ -1,11 +1,21 @@
-.header__lang-link {
-    text-decoration: none;
+.header__lang-link label {
+    margin: 0 0 0 18px;
     color: #fff;
     font-size: 24px;
-    line-height: 28px;    
+    line-height: 28px;
+    cursor: pointer;
+    user-select: none;
 }
 
-.header__lang-link:first-of-type {
-    text-decoration: underline;
-    margin-right: 18px;
+.header__lang-link input[type=radio] {
+    display: none;
 }
+
+.header__lang-link input[type=radio]:checked + label {
+    text-decoration: underline;
+}
+
+/* .header__lang-link:nth-child(2) {
+    text-decoration: underline;
+    margin-left: 18px;
+} */
