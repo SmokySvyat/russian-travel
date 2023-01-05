@@ -14,8 +14,3 @@
 .header__lang-link input[type=radio]:checked + label {
     text-decoration: underline;
 }
-
-/* .header__lang-link:nth-child(2) {
-    text-decoration: underline;
-    margin-left: 18px;
-} */
