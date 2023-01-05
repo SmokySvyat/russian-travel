@@ -5,3 +5,9 @@
 	grid-column: 1/12;
 	grid-row: 3/7;
 }
+
+@media screen and (max-width: 768px) {
+	.lead__image_top {
+		margin: 0 20px 0 20px;
+	}
+}
