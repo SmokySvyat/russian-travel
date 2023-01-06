@@ -4,5 +4,5 @@
     align-items: center;
     flex-wrap: wrap;
     max-width: calc(1184px + (48px * 2));
-	width: 100%;
+	/* width: 100%; */
 }

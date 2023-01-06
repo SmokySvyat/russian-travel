@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 745px) {
     .footer__links {
+        margin-left: 16px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, 24px);
