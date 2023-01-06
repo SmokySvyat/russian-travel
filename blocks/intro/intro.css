@@ -3,7 +3,7 @@
 	align-self: flex-start;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1183px) {
     .intro {
         margin: 92px 48px;
     }    
@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 745px) {
     .intro {
         margin: 64px 16px;
     }
