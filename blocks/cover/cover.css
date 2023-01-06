@@ -4,3 +4,9 @@
     flex-direction: column;
     align-self: center;
 }
+
+@media screen and (max-width: 1250px) {
+    .cover {
+        margin: 0 0 92px 0;
+    }
+}
