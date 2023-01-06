@@ -1,9 +1,9 @@
-.place__website_link {
+.place__link {
 	font-size: 18px;
 	line-height: 22px;
 	color: #FFF;
 }
 
-.place__website_link:hover {
+.place__link:hover {
     opacity: 0.8;
 }
