@@ -1,9 +1,7 @@
 .place__website_link {
-    margin: 12px 0 0 0;
-    color: #fff;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFF;
 }
 
 .place__website_link:hover {

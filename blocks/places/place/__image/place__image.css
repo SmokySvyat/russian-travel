@@ -1,9 +1,23 @@
 .place__image {
-    grid-row: 2/ span 2;
+	grid-row: 2/span 2;
 }
 
-@media screen and (max-width: 1024px) {
-    .place__image {
-        width: 440px;
-    }
+@media screen and (max-width: 1250px) {
+	.place__image {
+		width: 440px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.place__image {
+		width: 340px;
+	}
+}
+
+@media screen and (max-width: 745px) {
+	.place__image {
+		width: 320px;
+		grid-row: 3;
+		padding: 7px 0;
+	}
 }
