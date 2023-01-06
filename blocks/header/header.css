@@ -3,19 +3,21 @@
     justify-content: space-between;
     align-items: end;
     max-width: 1184px;
-    width: 90%;
+    width: 100%;
     margin: 28px 48px 56px 48px;
 }
 
 @media screen and (max-width: 1250px) {
 	.header {
 		margin: 28px 48px 48px 48px;
+		width: 91%;
 	}
 }
 
 @media screen and (max-width: 960px) {
 	.header {
 		margin: 28px 24px 48px 24px;
+		width: 95%;
 	}
 }
 
