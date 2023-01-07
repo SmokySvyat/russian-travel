@@ -3,7 +3,7 @@
     height: 740px;
 } 
 
- .cover__overlay:hover {
+.cover__overlay:hover {
     background-color: rgba(44, 42, 47, 0.8);
 }
 
@@ -14,7 +14,7 @@
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 968px) {
     .cover__overlay {
         height: 480px;
     }
