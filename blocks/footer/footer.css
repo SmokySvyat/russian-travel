@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 1184px;
-    width: 100%;
+    width: 90%;
     margin: 0 48px 24px 48px; 
 }
 
@@ -20,7 +20,20 @@
 }
 
 @media screen and (max-width: 745px) {
-    .footer {
-        flex-direction: column;
-    }
+	.footer {
+		justify-self: center;
+		display: grid;
+		grid-template-columns: fit-content;
+		grid-template-rows: repeat(2, auto-fit);
+		gap: 48px;
+		max-width: 186px;
+		width: 100%;
+		margin: 0 auto 24px calc((100vw - 186px) / 3);
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.footer {
+		margin: 0 auto 24px 16px;
+	}
 }
