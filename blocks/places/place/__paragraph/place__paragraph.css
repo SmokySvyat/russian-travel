@@ -19,7 +19,8 @@
 
 @media screen and (max-width: 745px) {
 	.place__paragraph {
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
 		margin: 0;
 		padding: 0 16px;
 	}
