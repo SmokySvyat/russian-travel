@@ -1,6 +1,4 @@
 .header__lang-links {
-    list-style-type: none;
-    padding: 0;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;

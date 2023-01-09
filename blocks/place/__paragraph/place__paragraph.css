@@ -1,13 +1,15 @@
 .place__paragraph {
-	margin: 0;
+	margin: 0 0 25px 0;
 	max-width: 484px;
 	width: 100%;
 	font-size: 18px;
 	line-height: 29px;
 }
 
-.place__paragraph:nth-of-type(2n) {
-	margin-top: -22px;
+@media screen and (max-width: 1250px) {
+	.place__paragraph:nth-of-type(2n) {
+		margin: 0;
+	}
 }
 
 @media screen and (max-width: 968px) {
@@ -21,7 +23,6 @@
 	.place__paragraph {
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
-		margin: 0;
 		padding: 0 16px;
 	}
 }

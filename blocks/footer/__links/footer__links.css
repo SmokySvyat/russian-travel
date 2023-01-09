@@ -1,5 +1,6 @@
 .footer__links {
 	min-width: 497px;
+	display: flex;
 }
 
 @media screen and (max-width: 745px) {

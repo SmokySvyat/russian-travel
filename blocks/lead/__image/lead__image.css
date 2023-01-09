@@ -1,8 +1,4 @@
 .lead__image {
 	max-width: 984px;
 	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 12;
-	position: relative;
 }
